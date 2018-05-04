@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListPreference
+        android:key="pref_key_locale"
+        android:title="@string/language_select"
+        android:dialogTitle="@string/language_select"
+        android:entries="@array/support_langs_display_name"
+        android:entryValues="@array/support_langs"
+        android:defaultValue="en_US" />
+    <Preference
+        android:key="pref_key_clear_cookies"
+        android:title="@string/clear_cookie" />
+</PreferenceScreen>

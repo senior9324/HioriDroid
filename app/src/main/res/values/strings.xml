@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">HioriDroid</string>
+    <string name="language_select">Select Language</string>
+    <string name="clear_cookie">Clear Cookie</string>
+</resources>
